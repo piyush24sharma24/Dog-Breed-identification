@@ -31,5 +31,7 @@ There are around 10,000+ images in the test set (these images have no lables, be
 
 # Get our workspace ready
 Import TensorFlow 2.x
+
 Import TensorFlow Hub
+
 Make sure we're using a GPU
