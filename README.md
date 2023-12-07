@@ -28,3 +28,8 @@ There are 120 breeds of dogs (this means there are 120 different classes).
 There are around 10,000+ images in the training set (these images have lables).
 
 There are around 10,000+ images in the test set (these images have no lables, because we'll want to predict them).
+
+# Get our workspace ready
+Import TensorFlow 2.x
+Import TensorFlow Hub
+Make sure we're using a GPU
