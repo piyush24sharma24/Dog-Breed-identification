@@ -18,3 +18,13 @@ The evaluation is a file with prediction probabilities for each dog breed for ea
 https://www.kaggle.com/competitions/dog-breed-identification/overview/evaluation
 
 4. Features
+Some informaation about the data:
+
+We're dealing with images (unstructured data) so it's
+probably best we use deep learning/ transfer learning.
+
+There are 120 breeds of dogs (this means there are 120 different classes).
+
+There are around 10,000+ images in the training set (these images have lables).
+
+There are around 10,000+ images in the test set (these images have no lables, because we'll want to predict them).
