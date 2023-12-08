@@ -35,3 +35,13 @@ Import TensorFlow 2.x
 Import TensorFlow Hub
 
 Make sure we're using a GPU
+
+
+## Turning our data into batches
+Why turn our data into batches?
+
+Let's say you're trying to process 10,000+ images in one go... they all might not fit into memory.
+
+So that's why we do about 32(this is the batch size) images at a time (you can manually adjust the batch size if need be ).
+
+In order to use TensorFlow effectively, we need our data in the form of Tensor tuples which look like this: (image, label).
